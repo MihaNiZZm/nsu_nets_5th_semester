@@ -6,7 +6,7 @@ import java.net.InetAddress;
 public class Main {
     public static void main(String[] args) {
         if (args[0] == null || args[1] == null) {
-            System.err.println("You didn't pass group IP address or port. Try again. Usage: first argument is an IP address of");
+            System.err.println("You didn't pass group IP address or port. Try again. Usage: first argument is an IP address of multicast group and the second one is a port you want to listen on.");
         }
         InetAddress groupAddress = CommandLineArgumentParser.parseIP(args[0]);
         int port = CommandLineArgumentParser.parsePort(args[1]);
