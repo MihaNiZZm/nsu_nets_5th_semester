@@ -1,4 +1,4 @@
-# UDP multicast app usage guide.
+# TCP file sender app usage guide.
 
 1. Clone the repository and build both projects using IntellijIdea or any other IDE.
 2. Run "TcpFileServer" app. Use command line to configure your run:
